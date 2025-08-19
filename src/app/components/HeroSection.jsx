@@ -49,7 +49,7 @@ const HeroSection = () => {
                         </a>
                         {/* download cv button*/ }
                         <a 
-                            href="/Chathuri_cv.pdf" 
+                            href="/Chathuri_CV.pdf" 
                             download="Chathuri_CV.pdf"
                             className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-700 to-blue-500 hover:bg-slate-800 text-white mt-3 inline-block"
                         >
