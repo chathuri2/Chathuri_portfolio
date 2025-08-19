@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Logo/Brand Section */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+            <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-300">
               CHATHURI NIROSHA
             </h3>
             <p className="text-[#ADB7BE] text-sm leading-relaxed">
@@ -19,7 +19,7 @@ const Footer = () => {
             {/* Social Links */}
             <div className="flex space-x-4">
               <a 
-                href="https://twitter.com/chalaninadeesha" 
+                href="" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#ADB7BE] hover:text-white transition-colors duration-300 hover:scale-110 transform"
@@ -30,7 +30,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
-                href="https://linkedin.com/in/chalaninadeesha" 
+                href="https://www.linkedin.com/in/chathuri-nirosha-a9155b249/" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#ADB7BE] hover:text-white transition-colors duration-300 hover:scale-110 transform"
@@ -41,7 +41,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
-                href="https://github.com/chalaninadeesha" 
+                href="https://github.com/chathuri2" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#ADB7BE] hover:text-white transition-colors duration-300 hover:scale-110 transform"
@@ -52,7 +52,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
-                href="https://instagram.com/chalaninadeesha" 
+                href="https://www.instagram.com/_.chathuryy._?igsh=NHRkcHFtNGZneHgz" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#ADB7BE] hover:text-white transition-colors duration-300 hover:scale-110 transform"
@@ -101,14 +101,14 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-white">Get In Touch</h4>
             <div className="space-y-3 text-sm">
               <div className="flex items-center space-x-3">
-                <svg className="h-4 w-4 text-purple-400" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="h-4 w-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
                 </svg>
                 <span className="text-[#ADB7BE]">chathurinirosha112233@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
-                <svg className="h-4 w-4 text-purple-400" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="h-4 w-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd"/>
                 </svg>
                 <span className="text-[#ADB7BE]">Colombo, Sri Lanka</span>
@@ -122,9 +122,9 @@ const Footer = () => {
                 <input
                   type="email"
                   placeholder="Your email"
-                  className="flex-1 px-3 py-2 bg-[#1a1a1a] border border-[#333] rounded-l-md text-white text-sm focus:outline-none focus:border-purple-500 transition-colors"
+                  className="flex-1 px-3 py-2 bg-[#1a1a1a] border border-[#333] rounded-l-md text-white text-sm focus:outline-none focus:border-blue-500 transition-colors"
                 />
-                <button className="px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-r-md hover:from-purple-600 hover:to-pink-600 transition-all duration-300 text-sm font-medium">
+                <button className="px-4 py-2 bg-gradient-to-r from-blue-700 to-blue-500 text-white rounded-r-md hover:from-blue-600 hover:to-blue-600 transition-all duration-300 text-sm font-medium">
                   Subscribe
                 </button>
               </div>

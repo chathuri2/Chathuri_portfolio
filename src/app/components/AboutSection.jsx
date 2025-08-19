@@ -22,8 +22,8 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul className="list-disc pl-6 text-[#ADB7BE]">
-                <li>BSC.(Hons) in Information Technology in Software Engineering</li>
-                <li>Sri Lanka Technology Campus, Padukka</li>
+                <li>BSC.(Hons) in Information Technology in Software Engineering,Sri Lanka Technology Campus, Padukka</li>
+                
             </ul>
         )
     },
@@ -66,15 +66,12 @@ const AboutSection = () => {
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
                     <p className="text-base lg:text-lg text-[#ADB7BE] mb-6">
-                        I'm an undergraduate student specializing in Software Engineering with a strong passion for Artificial Intelligence and 
-                        its real-world applications. As an aspiring AI Engineer, I'm continuously exploring innovative ways to integrate AI into 
-                        impactful solutions. My skill set spans across software development, including web development, mobile app development, 
-                        and UI/UX design.
+                        I’m an undergraduate Software Engineering student with a passion for Full Stack Development. 
+                        Skilled in React, Node.js, MongoDB, and UI/UX design, I enjoy creating responsive and user-friendly web applications.
                     </p>
                     <p className="text-base lg:text-lg text-[#ADB7BE] mb-6">
-                        I enjoy creating seamless, user-focused digital experiences and solving complex problems through clean, 
-                        scalable code. With a growth mindset and a dedication to continuous learning, I aim to contribute to cutting-edge projects 
-                        that blend creativity, technology, and intelligent systems.
+                        I’m a quick learner who is always eager to explore new technologies and expand my skill set. 
+                        As a collaborative team player, I enjoy working with others to build impactful solutions that make a difference.
                     </p>
                     <div className="flex flex-row justify-start mt-8">
                         <TabButton 
