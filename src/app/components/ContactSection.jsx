@@ -39,7 +39,7 @@ const ContactSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Contact Info */}
           <div>
-            <h2 className="text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-500">
+            <h2 className="text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">
               Let's Connect
             </h2>
             <p className="text-[#ADB7BE] mb-8 text-lg">

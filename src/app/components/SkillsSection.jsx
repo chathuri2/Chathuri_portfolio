@@ -13,11 +13,11 @@ const SkillsSection = () => {
     },
     {
       category: "Web Development",
-      items: ["React", "Next.js", "Node.js", "Express", "Tailwind CSS"]
+      items: ["React", "Next.js", "Node.js", "Tailwind CSS"]
     },
     {
       category: "Mobile Development",
-      items: ["React Native", "Flutter", "Android Studio", "iOS Development"]
+      items: ["React Native", "Flutter", "Android Studio"]
     },
     {
       category: "Design Tools",
@@ -32,7 +32,7 @@ const SkillsSection = () => {
   return (
     <section id="skills" className="text-white py-8 px-4 sm:py-16 xl:px-16">
       <div className="container mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-500">
+        <h2 className="text-4xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">
           My Skills
         </h2>
         <p className="text-[#ADB7BE] text-center mb-12 max-w-2xl mx-auto">

@@ -8,53 +8,62 @@ const ProjectsSection = () => {
   const projectsData = [
     {
       id: 1,
-      title: "AI-Powered Chatbot",
-      description: "Intelligent chatbot using NLP and machine learning for customer service automation",
-      image: "/images/projects/project1.png",
+      title: "MoodMate",
+      description: "real-time emotion detection and voice recognition with virtual pets to support mental well-being",
+      image: "/images/projects/project1.jpg",
       tag: ["All", "AI/ML"],
-      gitUrl: "https://github.com/yourusername/ai-chatbot",
-      previewUrl: "https://your-chatbot-demo.com",
+      gitUrl: "https://github.com/chathuri2/Moodmate",
+      previewUrl: "",
       technologies: ["Python", "TensorFlow", "Flask", "React"]
     },
     {
       id: 2,
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with modern UI and secure payment integration",
+      title: "Crickinfo",
+      description: "Sri Lankan Cricket Squad Selector",
       image: "/images/projects/project2.png",
-      tag: ["All", "Web"],
-      gitUrl: "https://github.com/yourusername/ecommerce-platform",
-      previewUrl: "https://your-ecommerce-demo.com",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"]
+      tag: ["All", "Web","AI/ML"],
+      gitUrl: "https://github.com/chathuri2/CrickInfo",
+      previewUrl: "",
+      technologies: ["React", "Flask", "scikit-learn", "pandas"]
     },
     {
       id: 3,
-      title: "Mobile Fitness App",
-      description: "Cross-platform fitness tracking app with workout plans and progress monitoring",
+      title: "NIC Decoder",
+      description: "A Flutter-based NIC Decoder app that extracts and displays personal details from a Sri Lankan NIC number.",
       image: "/images/projects/project3.png",
       tag: ["All", "Mobile"],
-      gitUrl: "https://github.com/yourusername/fitness-app",
+      gitUrl: "https://github.com/chathuri2/find_nicdecode",
       previewUrl: "https://your-fitness-app-demo.com",
-      technologies: ["React Native", "Firebase", "Redux", "Expo"]
+      technologies: ["C++", "CMake", "Dart", "HTML","C"]
     },
     {
       id: 4,
-      title: "Data Visualization Dashboard",
+      title: "Network Instruision Detection System",
       description: "Interactive dashboard for business analytics with real-time data visualization",
       image: "/images/projects/project4.png",
       tag: ["All", "AI/ML", "Web"],
       gitUrl: "https://github.com/yourusername/data-dashboard",
       previewUrl: "https://your-dashboard-demo.com",
-      technologies: ["React", "D3.js", "Python", "FastAPI"]
+      technologies: ["React", "Python", "FastAPI"]
     },
     {
       id: 5,
-      title: "Portfolio Design System",
-      description: "Comprehensive UI/UX design system with reusable components and style guide",
+      title: "My Portfolio",
+      description: "A personal portfolio showcasing my skills, projects, and experiences",
       image: "/images/projects/project5.png",
-      tag: ["All", "Design"],
-      gitUrl: "https://github.com/yourusername/design-system",
+      tag: ["All", "Web"],
+      gitUrl: "https://github.com/chathuri2/Chathuri_portfolio",
       previewUrl: "https://your-design-system-demo.com",
-      technologies: ["Figma", "React", "Storybook", "Tailwind CSS"]
+      technologies: ["Figma", "React", "Tailwind CSS", "JavaScript","CSS"]
+    },
+    {id: 6,
+      title: "The Novel Store",
+      description: "simple Book Store application built with Flutter",
+      image: "/images/projects/project6.png",
+      tag: ["All", "Mobile"],
+      gitUrl: "https://github.com/chathuri2/The_novel_Store",
+      previewUrl: "https://your-design-system-demo.com",
+      technologies: ["C++", "CMake", "Dart", "HTML","C", "Flutter"]
     }
   ];
 
@@ -69,7 +78,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects" className="text-white py-8 px-4 sm:py-16 xl:px-16">
       <div className="container mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-500">
+        <h2 className="text-4xl font-bold text-center mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">
           My Projects
         </h2>
         <p className="text-[#ADB7BE] text-center mb-8 max-w-2xl mx-auto">

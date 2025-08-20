@@ -6,10 +6,10 @@ import { TypeAnimation } from 'react-type-animation';
 const HeroSection = () => {
     return (
         <section className="py-8 px-4 sm:py-16 xl:px-16">
-            <div className="grid grid-cols-1 sm:grid-cols-12 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-12 gap-9">
                 <div className="col-span-7 place-self-center text-center sm:text-left">
                     <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-500">
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">
                             Hello, I'm{" "}
                         </span>
                         <br />
@@ -33,7 +33,7 @@ const HeroSection = () => {
                             repeat={Infinity}
                         />
                     </h1>
-                    <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+                    <p className="text-gray-300 text-base sm:text-lg mb-6 lg:text-xl">
                         I'm an undergraduate Software Engineering student with a passion for AI and innovation. 
                         I work across web and mobile development, UI/UX design, and aspire to grow as an AI engineer. 
                         I love building smart, user-friendly solutions that make a difference.

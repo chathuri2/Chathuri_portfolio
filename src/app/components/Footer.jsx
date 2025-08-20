@@ -2,13 +2,13 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#121212] border-t border-[#33353F] text-white">
+    <footer className="bg-gray-800 border-t border-[#33353F] text-white transparent backdrop-blur-md">
       <div className="container mx-auto px-4 py-8">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Logo/Brand Section */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-300">
+            <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-300">
               CHATHURI NIROSHA
             </h3>
             <p className="text-[#ADB7BE] text-sm leading-relaxed">
@@ -144,7 +144,7 @@ const Footer = () => {
                 © {new Date().getFullYear()} Chathuri Nirosha. All rights reserved.
               </p>
               <p className="text-[#ADB7BE] text-xs mt-1">
-                Built with ❤️ using Next.js, React & Tailwind CSS
+                Built with 💙 using Next.js, React & Tailwind CSS
               </p>
             </div>
 
