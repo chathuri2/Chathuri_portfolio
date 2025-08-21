@@ -64,6 +64,15 @@ const ProjectsSection = () => {
       gitUrl: "https://github.com/chathuri2/The_novel_Store",
       previewUrl: "https://your-design-system-demo.com",
       technologies: ["C++", "CMake", "Dart", "HTML","C", "Flutter"]
+    },
+    {id: 7,
+      title: "Authentication system",
+      description: "This project is a simple Authentication System built with Flask and SQLite.",
+      image: "/images/projects/project7.png",
+      tag: ["All", "web"],
+      gitUrl: "https://github.com/chathuri2/Authlab_Authentication-System",
+      previewUrl: "https://your-design-system-demo.com",
+      technologies: ["pyrhon", "Flask", "SQLite"]
     }
   ];
 

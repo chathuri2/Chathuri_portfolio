@@ -12,8 +12,8 @@ const TAB_DATA = [
                 <li>Python, JavaScript, TypeScript</li>
                 <li>React, Next.js, Node.js</li>
                 <li>TensorFlow, PyTorch, Scikit-learn</li>
-                <li>MongoDB, PostgreSQL, Firebase</li>
-                <li>Figma, Adobe XD, UI/UX Design</li>
+                <li>MongoDB, Firebase</li>
+                <li>Figma, Canva, UI/UX Design</li>
             </ul>
         )
     },
