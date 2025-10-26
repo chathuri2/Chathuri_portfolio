@@ -11,7 +11,7 @@ const ProjectsSection = () => {
       title: "MoodMate",
       description: "real-time emotion detection and voice recognition with virtual pets to support mental well-being",
       image: "/images/projects/project1.jpg",
-      tag: ["All", "AI/ML"],
+      tag: ["All", "AI/ML","Design"],
       gitUrl: "https://github.com/chathuri2/Moodmate",
       previewUrl: "https://www.figma.com/design/QmZ9sfsPXsxYZgQRv9pNpp/Moodmate-wireframe?t=q54sCOrt4mzAK7Wu-1",
       technologies: ["Python", "TensorFlow", "Flask", "React", "figma"]
