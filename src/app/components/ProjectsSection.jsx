@@ -13,18 +13,18 @@ const ProjectsSection = () => {
       image: "/images/projects/project1.jpg",
       tag: ["All", "AI/ML"],
       gitUrl: "https://github.com/chathuri2/Moodmate",
-      previewUrl: "",
-      technologies: ["Python", "TensorFlow", "Flask", "React"]
+      previewUrl: "https://www.figma.com/design/QmZ9sfsPXsxYZgQRv9pNpp/Moodmate-wireframe?t=q54sCOrt4mzAK7Wu-1",
+      technologies: ["Python", "TensorFlow", "Flask", "React", "figma"]
     },
     {
       id: 2,
       title: "Crickinfo",
-      description: "Sri Lankan Cricket Squad Selector",
+      description: "Sri Lankan Cricket Squad Selector ",
       image: "/images/projects/project2.png",
-      tag: ["All", "Web","AI/ML"],
+      tag: ["All", "Web","AI/ML","Design"],
       gitUrl: "https://github.com/chathuri2/CrickInfo",
-      previewUrl: "",
-      technologies: ["React", "Flask", "scikit-learn", "pandas"]
+      previewUrl: "https://www.figma.com/design/Indh6rpOvF7DEXRFFWieTS/CrickInfo?node-id=0-1&t=q54sCOrt4mzAK7Wu-1",
+      technologies: ["React", "Flask", "scikit-learn", "pandas","figma"]
     },
     {
       id: 3,
@@ -43,7 +43,7 @@ const ProjectsSection = () => {
       image: "/images/projects/project5.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/chathuri2/Chathuri_portfolio",
-      previewUrl: "https://your-design-system-demo.com",
+      previewUrl: "",
       technologies: ["Figma", "React", "Tailwind CSS", "JavaScript","CSS"]
     },
     {id: 6,
@@ -52,7 +52,7 @@ const ProjectsSection = () => {
       image: "/images/projects/project6.png",
       tag: ["All", "Mobile"],
       gitUrl: "https://github.com/chathuri2/The_novel_Store",
-      previewUrl: "https://your-design-system-demo.com",
+      previewUrl: "",
       technologies: ["C++", "CMake", "Dart", "HTML","C", "Flutter"]
     },
     {id: 7,
@@ -71,6 +71,15 @@ const ProjectsSection = () => {
       tag: ["All", "Design"],
       gitUrl: "https://www.figma.com/design/Hclo5aEYW9j1DRyJ4No3gu/AttendMi?node-id=0-1&t=IDW0Z6DDlmkg7xa0-1",
       previewUrl: "https://www.figma.com/design/Hclo5aEYW9j1DRyJ4No3gu/AttendMi?node-id=0-1&t=IDW0Z6DDlmkg7xa0-1",
+      technologies: ["figma"]
+    },
+    {id: 9,
+      title: "Learning Platform",
+      description: "Learning Platform designed with figma.",
+      image: "/images/projects/project9.png",
+      tag: ["All", "Design"],
+      gitUrl: "https://www.figma.com/design/9LzRydweU5JPCcxatwrXBj/Untitled?node-id=0-1&t=JIUxFFqqrAKHN79v-1",
+      previewUrl: "https://www.figma.com/design/9LzRydweU5JPCcxatwrXBj/Untitled?node-id=0-1&t=JIUxFFqqrAKHN79v-1",
       technologies: ["figma"]
     }
   ];
