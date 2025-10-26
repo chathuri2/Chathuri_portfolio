@@ -33,18 +33,8 @@ const ProjectsSection = () => {
       image: "/images/projects/project3.png",
       tag: ["All", "Mobile"],
       gitUrl: "https://github.com/chathuri2/find_nicdecode",
-      previewUrl: "https://your-fitness-app-demo.com",
+      previewUrl: "",
       technologies: ["C++", "CMake", "Dart", "HTML","C"]
-    },
-    {
-      id: 4,
-      title: "Network Instruision Detection System",
-      description: "Interactive dashboard for business analytics with real-time data visualization",
-      image: "/images/projects/project4.png",
-      tag: ["All", "AI/ML", "Web"],
-      gitUrl: "https://github.com/yourusername/data-dashboard",
-      previewUrl: "https://your-dashboard-demo.com",
-      technologies: ["React", "Python", "FastAPI"]
     },
     {
       id: 5,
@@ -72,9 +62,19 @@ const ProjectsSection = () => {
       tag: ["All", "web"],
       gitUrl: "https://github.com/chathuri2/Authlab_Authentication-System",
       previewUrl: "https://your-design-system-demo.com",
-      technologies: ["pyrhon", "Flask", "SQLite"]
+      technologies: ["python", "Flask", "SQLite"]
+    },
+    {id: 8,
+      title: "Attendmi",
+      description: "Attendence Management system designed with figma.",
+      image: "/images/projects/project8.png",
+      tag: ["All", "Design"],
+      gitUrl: "https://www.figma.com/design/Hclo5aEYW9j1DRyJ4No3gu/AttendMi?node-id=0-1&t=IDW0Z6DDlmkg7xa0-1",
+      previewUrl: "https://www.figma.com/design/Hclo5aEYW9j1DRyJ4No3gu/AttendMi?node-id=0-1&t=IDW0Z6DDlmkg7xa0-1",
+      technologies: ["figma"]
     }
   ];
+
 
   const handleTagChange = (newTag) => {
     setTag(newTag);

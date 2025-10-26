@@ -46,3 +46,26 @@ input,
 textarea {
   transition: all 0.3s ease;
 }
+
+/* Animated background blobs */
+.bg-animated {
+  position: relative;
+}
+.bg-animated::before,
+.bg-animated::after {
+  content: '';
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: rgba(23, 7, 195, 0.4);
+  animation: blob 15s infinite;
+}
+.bg-animated::after {
+  background: rgba(58, 86, 225, 0.4);
+  animation-delay: 7s;
+}
+@keyframes blob {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(150px, -80px) scale(1.3); }
+}
