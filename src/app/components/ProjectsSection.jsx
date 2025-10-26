@@ -35,7 +35,7 @@ const ProjectsSection = () => {
       gitUrl: "https://github.com/chathuri2/find_nicdecode",
       previewUrl: "",
       technologies: ["C++", "CMake", "Dart", "HTML","C"]
-    },
+    },git
     {
       id: 5,
       title: "My Portfolio",
