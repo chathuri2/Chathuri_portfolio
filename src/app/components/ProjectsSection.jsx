@@ -35,7 +35,7 @@ const ProjectsSection = () => {
       gitUrl: "https://github.com/chathuri2/find_nicdecode",
       previewUrl: "",
       technologies: ["C++", "CMake", "Dart", "HTML","C"]
-    },git
+    },
     {
       id: 5,
       title: "My Portfolio",
@@ -67,7 +67,7 @@ const ProjectsSection = () => {
     {id: 8,
       title: "Attendmi",
       description: "Attendence Management system designed with figma.",
-      image: "/images/projects/project8.png",
+      image: "/images/projects/Project8.png",
       tag: ["All", "Design"],
       gitUrl: "https://www.figma.com/design/Hclo5aEYW9j1DRyJ4No3gu/AttendMi?node-id=0-1&t=IDW0Z6DDlmkg7xa0-1",
       previewUrl: "https://www.figma.com/design/Hclo5aEYW9j1DRyJ4No3gu/AttendMi?node-id=0-1&t=IDW0Z6DDlmkg7xa0-1",
